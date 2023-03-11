@@ -1,0 +1,95 @@
+/* CSS Document */
+
+body{
+
+margin:0px;
+background-color:#0a2f5b; 
+}
+.lowerstyle{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+
+}
+.lowerstyle a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration:none;
+
+}
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+a:hover {
+	color: #006600;
+}
+
+
+
+.lowerstyle a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration:underline;
+
+}.aalpha {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+	color: #000000;
+
+}
+.nav-link-1.active{
+
+	margin-top: 1.1em;
+	border: none;
+	color: white;
+}
+.nav-link:hover{
+	color: #a9302a;
+}
+.navbar{
+	margin-left:2em;
+}
+.nav-link{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+
+}
+.newtext{
+	color:black;
+	text-transform: capitalize;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: -1px;
+
+}
+#navbarNav ul {
+	margin-left: 17em;
+}
+@media (max-width: 600px) {
+	#navbarNav ul {
+		margin-left: 0em;
+	}
+}
+.forminput{
+	border: 2px solid black;
+	border-radius: 4px;
+}
+@media only screen and (max-width : 1200px) {
+.container-fluid{
+	display: none;
+}
+}
+@media only screen and (max-width : 560px) {
+	.container-fluid {
+		display: none;
+	}
+}
